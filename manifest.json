@@ -18,7 +18,11 @@
         "default_popup": "popup.html",
         "default_title": "MangaDex Bookmarks",
         "default_icon": {
-            "112": "Tracker.png"
+            "128": "128.png"
         }
+    },
+
+    "icons": {
+        "128": "128.png"
     }
 }
