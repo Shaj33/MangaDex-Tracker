@@ -1,0 +1,24 @@
+{
+    "manifest_version": 2,
+    "name": "MangaDex Tracker",
+    "version": "0.1",
+
+    "permissions": [
+        "storage",
+        "tabs",
+        "https://mangadex.org/chapter/*"
+    ],
+
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_title": "MangaDex Bookmarks",
+        "default_icon": {
+            "112": "Tracker.png"
+        }
+    }
+}
